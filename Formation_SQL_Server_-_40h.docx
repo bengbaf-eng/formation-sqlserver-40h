@@ -1,0 +1,72 @@
+Formation SQL Server - 40h
+
+Page de garde
+Titre : Formation SQL Server - 40h
+Durée : 8 jours (5 h/jour) — 40 heures
+
+Table des matières
+1. Introduction à SQL Server
+2. Création et Gestion de Bases de Données
+3. Manipulation de Données avec T-SQL
+4. Concepts Avancés pour Débutants
+5. Travail avec les Dates et Fonctions Temporelles
+6. Découvrez la puissance des jointures
+7. Le Transact-SQL plus avancé avec les fonctions de partition
+8. Approche Pratique avec Exercices et Démos
+Administration SQL : Backup/Restore, Sécurité, Optimisation, Maintenance
+
+Public cible : Débutants complets & Administrateurs débutants
+Version cible : SQL Server Express 2019 + SSMS (recommandé pour la pratique)
+
+Contenu détaillé (sélection)
+
+Jour 1 (5 h) — Introduction & création/gestion de bases
+- Présentation SQL Server et outils (SSMS, sqlcmd, Azure Data Studio)
+- Architecture : instance, base, fichiers MDF/LDF, recovery model
+- Création d'une base FormationDB, options, auto-growth
+- Exercice 1 : création DB + table Clients + insert d'exemples
+
+Jour 2 (5 h) — T-SQL base
+- SELECT, WHERE, ORDER BY, TOP, DISTINCT
+- INSERT, UPDATE, DELETE, transactions (BEGIN/COMMIT/ROLLBACK)
+- Fonctions scalaires (ISNULL, COALESCE, CAST/CONVERT)
+- Exercice 2 : sélection et transaction avec rollback
+
+Jour 3 (5 h) — Agrégats et sous-requêtes
+- GROUP BY, HAVING, SUM, COUNT, AVG
+- Sous-requêtes corrélées et non-corrélées, EXISTS, IN
+- Vues et fonctions simples
+- Exercice 3 : total par client > 100
+
+Jour 4 (5 h) — Transactions avancées, verrouillage, indexation
+- Niveaux d'isolation, locks, deadlocks
+- Index clustered vs non-clustered
+- Exercice : créer index et mesurer impact
+
+Jour 5 (5 h) — Dates et jointures
+- DATEDIFF, DATEADD, FORMAT, AT TIME ZONE
+- INNER/LEFT/RIGHT/FULL/CROSS/SELF JOIN, APPLY
+- Exercices correspondants
+
+Jour 6 (5 h) — Fonctions fenêtre et partition
+- ROW_NUMBER, RANK, NTILE, SUM() OVER(), LEAD/LAG
+- Exercices et cas d'usage (reporting, cumulative sums)
+
+Jour 7 (5 h) — Projet pratique
+- Mini-projet : catalogue + ventes, tables Produits/Stocks/Ventes
+- Requêtes de reporting (CA par produit, top N, rolling 30 days)
+
+Jour 8 (5 h) — Examen pratique & récapitulatif
+- Examen pratique (2 h) + correction (1 h)
+- Q&A, checklist pré-déploiement, prochaines étapes
+
+Administration SQL (modules)
+- Backup & Restore: FULL, DIFFERENTIAL, LOG; scripts; exercices
+- Sécurité: logins, users, roles, permissions; exercice de création de user
+- Optimisation: indexation, statistiques, fragmentation; DMV
+- Amélioration: rewrite queries, monitoring (sp_who2, DMVs)
+
+Annexes et ressources
+- CHECKDB, scripts d'automatisation backup (PowerShell + sqlcmd), bonnes pratiques
+- Liens de téléchargement et documentation officiels
+
